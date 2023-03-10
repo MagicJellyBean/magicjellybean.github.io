@@ -216,7 +216,7 @@ table tr td p {
 
 .banner-bg {
 	height: 100vh;
-	background: url("photos/banner_bg.png") no-repeat center bottom;
+	background: url("photos/banner_bg.jpg") no-repeat center bottom;
 	background-size: cover;
 }
 
@@ -260,6 +260,14 @@ a:hover .banner-icon {
 	width: 60%;
 	top: 50%;
 	transform: translate(0, -50%);
+}
+
+.about-table {
+	width: 80%;
+}
+
+.about-table-column {
+	width: 50%;
 }
 
 @media (max-width: 1200px) {
@@ -455,6 +463,18 @@ a:hover .banner-icon {
 
 .experience table tr td, .qualifications table tr td {
 	width: 33%;
+}
+
+.experience-titles {
+	padding-bottom: 0.4rem;
+}
+
+
+
+
+
+.qualifications-titles {
+	padding-bottom: 0.4rem;
 }
 
 
