@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Karol Masłowski</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="shortcut icon" type="image/jpg" href="photos/favicon.png"/>
+	</head>
+
+	<body>
+		<header>
+			<div id="header" class="header header-color0">
+				<div class="container">
+					<div class="topnav mobile" id="myTopnav">
+					  <a href="#banner"><span class="text-orange">Portfolio</span></a>
+					  <a href="#about">O mnie</a>
+					  <a href="#skills" onclick="skills()">Umiejętności</a>
+					  <a href="#experience">Doświadczenie</a>
+					  <a href="#qualifications">Kwalifikacje</a>
+					  <a href="#projects">Moje projekty</a>
+					  <a href="#contact">Kontakt</a>
+					  <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+					    <img class="navbar-icon" src="icons/hamburger_icon.png"></img>
+					  </a>
+					</div>
+					<div class="topnav">
+					  <a href="#banner"><span class="text-orange">Portfolio</span></a>
+					  <a href="#contact">Kontakt</a>
+					  <a href="#projects">Moje projekty</a>
+					  <a href="#qualifications">Kwalifikacje</a>
+					  <a href="#experience">Doświadczenie</a>
+					  <a href="#skills" onclick="skills()">Umiejętności</a>
+					  <a href="#about">O mnie</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Main banner -->
+			<section id="banner">
+				<div class="banner-bg">
+					<!-- <img src="photos/test-banner-bg.jpg" class="banner-image"> -->
+					<div class="banner-text text-center">
+						<h2 class="text-white">Cześć, nazywam się</h2>
+						<h1 class="text-orange" style="font-size: 1.8rem;">Karol Masłowski</h1>
+						<div>
+							<a href="https://www.linkedin.com/in/karol-mas%C5%82owski-2bb1081b9/" target="_blank"><img class="banner-icon" src="icons/linkedin_icon.svg"></a>
+							<a href="https://www.facebook.com/profile.php?id=100004549620498" target="_blank"><img class="banner-icon" src="icons/facebook_icon.svg"></a>
+							<a href="http://m.me/100004549620498" target="_blank"><img class="banner-icon" src="icons/messenger_icon.svg"></a>
+							<a href="https://www.instagram.com/the_magic_jelly_bear/" target="_blank"><img class="banner-icon" src="icons/instagram_icon.svg"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- O mnie -->
+			<section id="about" class="pt-7rem">
+				<div class="container">
+					<div class="about-image text-center">
+						<img src="photos/about_photo.png">
+					</div>
+					<div class="about-text">
+						<h1>O mnie</h1>
+						<p>
+							Cześć, nazywam się Karol Masłowski. Aktualnie jestem studentem automatyki i robotyki na Akademi Techniczno-Humanistycznej w Bielsku-Białej. Interesuję się głównie elektroniką, źródłami energii odnawialnej, mechatroniką oraz robotyką. Lubię również grać w siatkówkę, biegać, fotografować, majsterkować i zajmować się drukiem 3D. Moje umiejętności, certyfikaty, doświadczenie i projekty zostały przedstawione na tej stronie. Jeśli jesteś zainteresowany współpracą lub masz jakieś pytania, skontaktuj się ze mną.
+						</p>
+						<table style="width: 80%">
+							<tr>
+							    <td><p class="text-bold">Imię i nazwisko:</p></td>
+							    <td><p>Karol Masłowski</p></td>
+							</tr>
+							<tr>
+							    <td><p class="text-bold">Wiek:</p></td>
+							    <td><p>21</p></td>
+							</tr>
+							<tr>
+							    <td><p class="text-bold">Miejscowość:</p></td>
+							    <td><p>Bielsko-Biała</p></td>
+							</tr>
+							<tr>
+							    <td><p class="text-bold">Email:</p></td>
+							    <td><p>maslowski.karol99@gmail.com</p></td>
+							</tr>
+							<tr>
+							    <td><p class="text-bold">Telefon:</p></td>
+							    <td><p>509 959 184</p></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
+
+			<!-- Umiejętności -->
+			<section id="skills" class="pt-7rem">
+				<div class="container">
+					<h1 class="text-center pb-1rem">Moje umiejętności</h1>
+					<div class="skills-box">
+						<div class="skills-element">
+							<div class="skills-circular">
+								<div class="skills-percentage"><h3 id="percent-html" data-maxvalue="95">0</h3></div>
+								<div class="skills-inner"></div>
+								<div>
+									<div class="bar left">
+										<div class="progress"></div>
+									</div>
+									<div class="bar right">
+										<div class="progress"></div>
+									</div>
+								</div>
+							</div>
+							<h3 class="text-center">HTML</h3>
+						</div>
+						<div class="skills-element">
+							<div class="skills-circular">
+								<div class="skills-percentage"><h3 id="percent-css" data-maxvalue="90">0</h3></div>
+								<div class="skills-inner"></div>
+								<div>
+									<div class="bar left">
+										<div class="progress"></div>
+									</div>
+									<div class="bar right">
+										<div class="progress"></div>
+									</div>
+								</div>
+							</div>
+							<h3 class="text-center">CSS</h3>
+						</div>
+						<div class="skills-element">
+							<div class="skills-circular">
+								<div class="skills-percentage"><h3 id="percent-electronics" data-maxvalue="70">0</h3></div>
+								<div class="skills-inner"></div>
+								<div>
+									<div class="bar left">
+										<div class="progress"></div>
+									</div>
+									<div class="bar right">
+										<div class="progress"></div>
+									</div>
+								</div>
+							</div>
+							<h3 class="text-center">Elektronika</h3>
+						</div>
+						<div class="skills-element">
+							<div class="skills-circular">
+								<div class="skills-percentage"><h3 id="percent-3dprinting" data-maxvalue="65">0</h3></div>
+								<div class="skills-inner"></div>
+								<div>
+									<div class="bar left">
+										<div class="progress"></div>
+									</div>
+									<div class="bar right">
+										<div class="progress"></div>
+									</div>
+								</div>
+							</div>
+							<h3 class="text-center">Druk 3D</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Doświadczenie -->
+			<section id="experience" class="pt-7rem">
+				<div class="container experience">
+					<h1 class="text-center pb-1rem">Doświadczenie</h1>
+					<table>
+						<tr class="text-center">
+							<td><p class="text-bold" style="padding-bottom: 0.4rem;">Nazwa firmy</p></td>
+							<td><p class="text-bold">Stanowisko</p></td>
+							<td><p class="text-bold">Czas</p></td>
+						</tr>
+						<tr class="text-center">
+						    <td><p class="text-bold">Code Town</p></td>
+						    <td><p>Marketing</p></td>
+						    <td><p>07.2020 - 11.2020</p></td>
+						</tr>
+						<!-- <tr style="padding-bottom: 5rem;">
+							<td colspan="3">
+								<p>Główne obowiązki:</p>
+								<p>- Prowadzenie profilu firmy na Facebook'u</p>
+								<p>- Pozyskiwanie nowych użytkowników portalu</p>
+								<p>- </p>
+							</td>
+						</tr> -->
+						<tr class="text-center">
+						    <td><p class="text-bold">Code Town</p></td>
+						    <td><p>Junior Application Developer</p></td>
+						    <td><p>08.2019 - 06.2020</p></td>
+						</tr>
+						<!-- <tr>
+							<td colspan="3">
+								<p>Główne obowiązki:</p>
+								<p>- Tworzenie aplikacji internetowych według designu, głównie przy pomocy HTML, CSS, Bootstrap;</p>
+								<p>- Aktualizowanie już istniejących lub tworzenie nowych funkcjonalności, głównie w języku C# i JavaScript;</p>
+								<p>- Tworzenie lub aktualizowanie baz danych za pomocą PHP MySQL;</p>
+							</td>
+						</tr> -->
+						<tr class="text-center">
+						    <td><p class="text-bold">A/B/C Elektronarzędzia</p></td>
+						    <td><p>Magazynier</p></td>
+						    <td><p>07.2018 - 09.2018</p></td>
+						</tr>
+						<!-- <tr>
+							<td colspan="3">
+								<p>Główne obowiązki:</p>
+								<p>- Przyjmowanie i sprawdzanie towaru na magazyn;</p>
+								<p>- Przygotowywanie produktów do wysyłki, pakowanie i wypisywanie listów przewozowych;</p>
+								<p>- Utrzymywanie porządku na magazynie</p>
+							</td>
+						</tr> -->
+					</table>
+				</div>
+			</section>
+
+			<!-- Kwalifikacje -->
+			<section id="qualifications" class="pt-7rem">
+				<div class="container qualifications">
+					<h1 class="text-center pb-1rem">Kwalifikacje</h1>
+					<table class="text-center">
+						<tr>
+							<td><p class="text-bold" style="padding-bottom: 0.4rem;">Nazwa</p></td>
+							<td><p class="text-bold">Data / Zakres</p></td>
+						</tr>
+						<tr>
+						    <td><p class="text-bold">Szkolenie podstawowe Sinumerik</p></td>
+						    <td><p>03.2021</p></td>
+						</tr>
+						<tr>
+						    <td><p class="text-bold">Angielski zaawansowany (poziom C1)</p></td>
+						    <td><p>12.2020</p></td>
+						</tr>
+						<tr>
+						    <td><p class="text-bold">Uprawnienia elektryczne SEP G1</p></td>
+						    <td><p>12.2020 - 12.2025</p></td>
+						</tr>
+						<tr>
+						    <td><p class="text-bold">Prawo jazdy kat.B</p></td>
+						    <td><p>10.2017</p></td>
+						</tr>
+					</table>
+				</div>
+			</section>
+
+			<!-- Projekty -->
+			<section id="projects" class="pt-7rem">
+				<div class="container">
+					<h1 class="text-center pb-1rem">Moje projekty</h1>
+					<div class="card">
+						<div class="card-image">
+							<img src="photos/3dprinter_projects.jpeg">
+						</div>
+						<div class="card-text">
+							<h3>Drukarka 3D</h3>
+							<p>W roku 2018 zakupiłem drukarkę Anet A8. Druk 3D spodobał mi się tak bardzo, że aktualnie z pierwotnej drukarki niewiele zostało. Dzięki ciągłemu ulepszaniu jej wiele się dowiedziałem i nauczyłem. Aktualnie projektuje własne elementy w celu ulepszenia swojej drukarki lub do własnego użytku.</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-image card-image-odd">
+							<img src="photos/weatherstation_projects.jpg">
+						</div>
+						<div class="card-text card-text-odd">
+							<h3>Mini stacja pogody</h3>
+							<p>Urządzenie które pobiera dane z czujników temperatury i wilgotności, zarówno z pomieszczenia jak i z zewnątrz. Zostało ono wyposażone w moduł czasowy i wyświetlacz LCD na którym wyświetlana jest aktualna godzina, temperatura i wilgotność powietrza. Możliwe jest też wyłączanie podświetlenia wyświetlacza za pomocą przełącznika.</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-image">
+							<img src="photos/ledcube_projects.jpg">
+						</div>
+						<div class="card-text">
+							<h3>Kostka ledowa 4x4x4</h3>
+							<p>Na projekt kostki ledowej trafiłem kiedyś na internecie i powiedziałem sobie, że chcę takie coś zrobić sam i dowiedzieć się jak to działa. Tak właśnie się stało, zrobiłem potrzebne zakupy, złożyłem cały projekt i przystąpiłem do pisania programu. Program polegał na wyświetlaniu kilku różnych sekwencji następujących po sobie tworząc pewną animację.</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-image card-image-odd">
+							<img src="photos/swiatlolub_projects.jpg">
+						</div>
+						<div class="card-text card-text-odd">
+							<h3>Światłolub</h3>
+							<p>Mały i prosty w wykonaniu robocik, który potrafi sprawić wiele frajdy jak i wprowadzić w zachwyt bliskich czy znajomych. Wykonałem go w roku 2018 i był to mój pierwszy projekt związany z robotyką. Powiem szczerze, że składając go nie miałem pojęcia co właściwie robię i jak to ma działać.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Kontakt -->
+			<section id="contact" class="pt-7rem">
+				<div class="container text-center">
+					<h1>Masz pytania? Skontaktuj się ze mną!</h1>
+					<p class="contact-text"><img class="contact-icon" src="icons/email_icon.svg">maslowski.karol99@gmail.com</p>
+					<p class="contact-text"><img class="contact-icon" src="icons/phone_icon.svg">509 959 184</p>
+					<div>
+						<a href="https://www.linkedin.com/in/karol-mas%C5%82owski-2bb1081b9/" target="_blank"><img class="contact-icon" src="icons/linkedin_icon.svg"></a>
+						<a href="https://www.facebook.com/profile.php?id=100004549620498" target="_blank"><img class="contact-icon" src="icons/facebook_icon.svg"></a>
+						<a href="http://m.me/100004549620498" target="_blank"><img class="contact-icon" src="icons/messenger_icon.svg"></a>
+						<a href="https://www.instagram.com/the_magic_jelly_bear/" target="_blank"><img class="contact-icon" src="icons/instagram_icon.svg"></a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Cytat -->
+			<section id="quote" class="quote-section">
+				<div class="container">
+					<p class="quote">
+						"Ważne jest by nigdy nie przestać pytać. Ciekawość nie istnieje bez przyczyny. Wystarczy więc, jeśli spróbujemy zrozumieć choć trochę tej tajemnicy każdego dnia. Nigdy nie trać świętej ciekawości. Kto nie potrafi pytać nie potrafi żyć." ~Albert Einstein
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer">
+				<p class="text-center text-muted">
+					&copy; Copyright 2021 - Karol Masłowski
+				</p>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
